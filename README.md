@@ -1,3 +1,5 @@
+[Демо](https://alarma1.github.io/eKom-app-demo/#/)  
+[Ссылка на проект](https://github.com/Alarma1/eKom-app)
 # Тестовое задание
 
 Создайте приложение с использованием Vue-CLI. В приложении необходимо использовать библиотеки vue-router и vuex. С помощью vue-router создайте две страницы:
