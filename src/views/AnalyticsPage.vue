@@ -17,9 +17,9 @@
 
     const store = useStore()
     const router = useRouter();
-    const localStorageKey = localStorage.getItem
+    const localStorageKey = localStorage.getItem('leadhit-site-id')
     if (localStorageKey === null || localStorageKey === undefined || localStorageKey === '' || localStorageKey !== '5f8475902b0be670555f1bb3') {
-        router.push('/')
+        router.push({name: 'authorization'})
     }
     const paramsGraphic = store.state.dataGraphic.map((item) => {
         return {date: Date.parse(item.date), visits: item.visits}

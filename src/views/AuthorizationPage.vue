@@ -38,7 +38,7 @@
             store.dispatch('fetchData', siteId.value)
                 .then(response => {
                     if (response === 'ok') {
-                        router.push('/analytics')
+                        router.push({name: 'analytics'})
                     }
                 })
         }
